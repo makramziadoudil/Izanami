@@ -28,7 +28,7 @@ class Server:
         self.info = []
         for x in range(0,6):
             # Recveive message and decode
-            message = client.recv(4096).decode("utf8")
+            message = client.recv(4096).decode("utf-8")
             # Decrypt message
             # append
             self.info.append(message)
